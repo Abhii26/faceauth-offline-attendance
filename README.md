@@ -168,10 +168,6 @@ Output: `build/app/outputs/flutter-apk/app-release.apk`.
 - [ ] Document and validate browser-demo features and Android feature parity
 - [ ] Add automated CI checks once the test suite is validated on the target Flutter SDK
 
-## Acknowledgments and provenance
-
-The supplied project archive included Git history referencing [hamza372/FlutterFaceRecognitionImages2026](https://github.com/hamza372/FlutterFaceRecognitionImages2026). Preserve relevant upstream attribution and verify that reuse and redistribution of upstream code, third-party libraries, and bundled ML model files are authorized before publishing this project publicly. Changes beyond that baseline are reflected in this project’s source code.
-
 ## License
 
 The supplied project contains an [MIT LICENSE](LICENSE). The license covers only content that the stated copyright holder is authorized to license; external packages, models, images and reused upstream code may have separate terms.
