@@ -11,15 +11,23 @@
   ![Android](https://img.shields.io/badge/Android-Supported-3DDC84?logo=android&logoColor=white)
   ![TFLite](https://img.shields.io/badge/TensorFlow_Lite-On--device-FF6F00)
   ![License](https://img.shields.io/badge/License-MIT-blue)
+
+  **[🚀 Live Web Demo](https://faceauth-live-abhishek.netlify.app/)** · **[💻 GitHub Repository](https://github.com/Abhii26/faceauth-offline-attendance)** · **[📱 Android Setup](#getting-started-android-studio)**
 </div>
 
-> **Platform status:** The supported experience is **Android**. Although the Flutter project contains platform scaffolding (including `web/`), its camera / ML Kit / native inference / SQLite flow has **not** been adapted or validated for Flutter Web. Do not treat this repository as a live web demo.
+> **Platform status:** Explore the [Netlify-hosted web demo](https://faceauth-live-abhishek.netlify.app/) for a browser-accessible preview. The native face recognition, camera, ML Kit, TensorFlow Lite, and SQLite flows described in this README are **Android-focused**; full feature parity on the hosted website has not been verified.
 
 ## Overview
 
 FaceAuth is an offline-first attendance prototype that combines face embeddings with **active liveness challenges** and **passive anti-spoofing** checks. Recognition and storage are handled on the device rather than by a hosted recognition API.
 
 The app is designed to demonstrate real-time computer vision integration, biometric matching, mobile application architecture, local persistence, and data visualization.
+
+## Live demo
+
+**🌐 [Open FaceAuth Live Demo on Netlify](https://faceauth-live-abhishek.netlify.app/)**
+
+Use the hosted website to preview the project in your browser without installing an APK. For native Android camera-based recognition and liveness behavior, run the Android app using the steps below. The browser demo's capabilities may differ from the full Android implementation.
 
 ## Key features
 
@@ -157,7 +165,7 @@ Output: `build/app/outputs/flutter-apk/app-release.apk`.
 - [ ] Evaluate recognition and liveness on a documented test dataset
 - [ ] Encrypt local biometric data and improve failure handling
 - [ ] Improve accessibility and responsive layouts across Android form factors
-- [ ] Develop a separate browser-compatible demo
+- [ ] Document and validate browser-demo features and Android feature parity
 - [ ] Add automated CI checks once the test suite is validated on the target Flutter SDK
 
 ## Acknowledgments and provenance
